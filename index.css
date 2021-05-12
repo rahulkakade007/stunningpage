@@ -1,0 +1,188 @@
+body{
+    width: 70%;
+    margin:0 auto;
+    margin-top: 20px;
+    font-family: 'Yantramanav', sans-serif;
+}
+#logo{
+    width: 110px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    color: gray;
+    margin: 15px;
+}
+
+#acc-btn{
+    background-color:#FFD8DB;
+    color:#A389CC;
+    border:0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 22px;
+}
+
+a:hover{
+    color:black;
+    text-indent: 20px;
+    border-bottom: 4px solid blue;
+    cursor: default;
+
+}
+
+#active{
+    color:black;
+    text-indent: 20px;
+    border-bottom: 4px solid blue;
+    
+}
+
+#new-btn{
+      border:0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+    background-color: #5243C0;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.arrow{
+    width:50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.btn-arrow{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+main{
+    padding:5px 30px 5px 30px;
+    display: flex;
+    margin-top: 30px;
+}
+.main > *{
+    flex: 1 1;
+}
+#workspace{
+    padding: 10px 30px 0 30px;
+}
+
+
+
+.blue-dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    margin-left: 2px;
+}
+#landing-section-image{
+    width:100%;
+    height: 80%;
+} 
+
+.stuwork{
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 0;
+    letter-spacing: -2px;
+}
+p{
+    padding-right: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgb(85, 83, 83);
+}
+.check-cards{
+    margin-bottom: 5px;
+    width: 70%;
+    box-shadow: 0 0 0.5px grey;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.check-cards:hover{
+    box-shadow: 0 0 9px grey;
+    border-radius: 14px;
+}
+#active-card{
+    box-shadow: 0 0 20px grey;
+    border-radius: 14px;
+}
+.card-tick{
+    margin-right: 10px;
+    margin-left: 15px;
+    padding-bottom: 2px;
+    margin-top: 7px;
+}
+.card-name{
+    
+    line-height: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color:rgb(24, 22, 22);
+    padding-top: 9px;
+    margin-top: 5px;
+    
+}
+
+#workspace{
+    height: 100%;
+}
+
+
+.c1{
+padding-right: 50px;
+
+}
+.c2{
+padding-right: 34px;
+}
+.c3{
+    padding-right: 64px;
+}
+.c4{
+    padding-right: 80px;
+}
+.user-avatar{
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.card-date{
+    padding-right: 9px;
+    color: grey;
+   
+}
+.card-color{
+    display:inline-block;
+    width:15px;
+    height: 7px;
+    border-radius: 4px;
+}
+.cpink{
+background-color: #FED7DA;
+}
+.cred{
+    background-color: #FD6534;
+}
+.cgreen{
+    background-color: #9ED095;
+}
+.cyellow{
+    background-color: #FFE4A0;
+}
